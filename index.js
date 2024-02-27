@@ -65,7 +65,7 @@ const template = document.querySelector('template');
 const correta = new Set();
 const totalDePerguntas = perguntas.length;
 const mostrarAcertos = document.querySelector('#acertos span');
-mostrarAcertos.textContent = correta.size + 'de' + totalDePerguntas;
+mostrarAcertos.textContent = correta.size + ' de ' + totalDePerguntas;
 
 // loop ou laço de repetição
 for (const item of perguntas) {
